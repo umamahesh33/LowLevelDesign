@@ -1,0 +1,21 @@
+Strategy Pattern
+I1 I2
+S1 S2
+
+NumStore class where i collect numbers by supporting these two functions insert and search
+
+lets say i'll have a check insert(int num, InsertionType)
+then i can check insertionType with if else statements and call the respective implementation
+Factory need to be implemented
+but here i have a dependncy on method levels
+
+basically double abstract interfaces
+
+Insertion Interface - I1impl I2impl
+Search Interface - S1impl S2impl
+
+insert(int num, InsertionFactory)
+    insertFactory.insert(num)
+
+search(int num, SearchFactory)
+    searchFactory.search(num)

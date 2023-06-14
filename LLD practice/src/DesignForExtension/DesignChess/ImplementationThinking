@@ -1,0 +1,10 @@
+The main stressed point here was to implement for extension.In detail implement for a board games extension
+
+lets first think of what are the common things that board games have
+1. move
+
+Requirements by vivek:
+1. white player should start the game, and two players should be able to play the game one by one
+2.  player vs player, player vs computer, computer vs computer should be able to play
+3. extensible for the other board games as well, snake and ladder.
+4.
